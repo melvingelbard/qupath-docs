@@ -104,8 +104,8 @@ As the object classes between OMERO and QuPath are different, some information m
 
    * - |pic1|
      - |pic2|
-   * - 2 QuPath annotations
-     - 2 OMERO ROIs
+   * - Two QuPath annotations
+     - Two OMERO ROIs
 
 .. |pic1| image:: images/fully_reproducible_qupath.jpg
    :width: 100%
@@ -120,13 +120,14 @@ As the object classes between OMERO and QuPath are different, some information m
 Managing OMERO clients
 ======================
 
+.. sidebar:: Status refresh
+
+  Disconnection/reconnection to any OMERO server forces the window to refresh, so connection statuses should always be accurate.
+
 QuPath allows you to manage all active OMERO clients.
 To display a pane with all active and non-active OMERO clients used in the current session, navigate to :menuselection:`Extensions --> OMERO --> Manage server connections`.
 
 There, a window displaying the servers to which a previous connection was made, allows you to log in, log out and remove (forget) it.
-
-.. Note::
-  Disconnection/reconnection to any OMERO server forces the window to refresh, so the connection statuses should always be accurate.
 
 If an account with authentication is currently connected to the server, its username will be written in parenthesis next to the server’s URL.
 
