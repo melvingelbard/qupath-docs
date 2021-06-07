@@ -5,6 +5,7 @@
 .. |brush| image:: ../images/icons/Brush.png
 .. |wand| image:: ../images/icons/Wand.png
 .. |points| image:: ../images/icons/Points.png
+.. |selection| image:: ../images/icons/Selection.png
 
 .. |icon_contrast| image:: ../images/icons/Contrast.png
   :class: inline-icon
@@ -28,6 +29,9 @@
   :class: inline-icon
 
 .. |icon_points| image:: ../images/icons/Points.png
+  :class: inline-icon
+
+.. |icon_selection| image:: ../images/icons/Selection.png
   :class: inline-icon
 
 .. |icon_move| image:: ../images/icons/Move.png

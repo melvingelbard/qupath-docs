@@ -175,6 +175,10 @@ If the object you want isn't selected already, return to the **Move tool** |icon
 .. tip::
   You can select multiple annotations by clicking on them while holding down the :kbd:`Alt` key.
 
+.. premonition::
+  Make sure that whenever you want to create annotation, the *Selection mode* |icon_selection| is not activated.
+  The *Selection mode* allows you to create a temporary annotation (with dotted vertices) that, once drawn, will disappear and automatically select all the objects contained in its area.
+
 
 Changing colors & properties
 ----------------------------
@@ -189,6 +193,10 @@ Clicking on this list gives another way to select an object.
 But you can also set the properties of your annotations here if you like.
 One way is to select from a predefined list of classifications on the right, and choose **Set class**.
 Alternatively, right-click on any listed annotation and choose **Set properties** to choose any arbitrary name or color.
+You can  toggle on and off the visibility of annotation names by typing :kbd:`N`.
+
+.. Tip::
+  You can also set an annotation's properties by selecting it and hitting *Enter*.
 
 .. figure:: images/steps_annotation_panel.jpg
   :class: shadow-image
